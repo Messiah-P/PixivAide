@@ -38,13 +38,7 @@ TODO list
 
 ---
 
-+ 部署文档：  [WIKI](https://github.com/Messiah-P/PixivAide/wiki)
-+ 运行截图戳这：[运行截图](https://github.com/Coder-Sakura/PixiC/wiki/运行截图)
-+ 注意事项戳这：[注意事项](https://github.com/Coder-Sakura/PixiC/wiki/%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
-
 </br>
-
-请参考<部署文档>完成环境搭建和依赖安装，接着运行
 
 ```
 python scheduler.py
