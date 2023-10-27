@@ -3,7 +3,7 @@ import os
 import re
 import glob
 
-from config import ROOT_PATH,BOOKMARK_PATH
+from conf.config import ROOT_PATH,BOOKMARK_PATH
 
 class Folder(object):
 	def __init__(self):

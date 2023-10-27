@@ -6,11 +6,10 @@ author: coder_sakura
 """
 
 import time
-import random
 import threading
 
-from message import TEMP_MSG
-from log_record import logger
+from log.message import TEMP_MSG
+from log.log_record import logger
 
 
 def random_cycle_time():

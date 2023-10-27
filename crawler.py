@@ -8,12 +8,11 @@ import json
 import time
 import re
 
-from config import SKIP_ISEXISTS_ILLUST,ROOT_PATH
+from conf.config import SKIP_ISEXISTS_ILLUST,ROOT_PATH
 from downer import Downloader
-from log_record import logger
-from message import TEMP_MSG
+from log.log_record import logger
+from log.message import TEMP_MSG
 from thread_pool import ThreadPool,callback
-from tag import TAG_FLAG_USER
 from ptimer import Timer
 
 

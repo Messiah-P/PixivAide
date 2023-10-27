@@ -7,12 +7,11 @@ import json
 import random
 import requests
 
-from config import COOKIE_UPDATE_ENABLED,\
-	ORIGI_COOKIE_LIST,PRO_DIR,USER_ID
-from log_record import logger
-from message import TEMP_MSG
+from conf.config import COOKIE_UPDATE_ENABLED,ORIGI_COOKIE_LIST,PRO_DIR,USER_ID
+from log.log_record import logger
+from log.message import TEMP_MSG
 
-# 存储用户cookie的文件名称
+# 存储用户cookie的文件名称
 COOKIE_NAME = "pixiv_cookie"
 
 headers = {

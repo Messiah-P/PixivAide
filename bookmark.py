@@ -8,14 +8,13 @@ author: coder_sakura
 import json
 import time
 
-from config import BOOKMARK_HIDE_ENABLE,SKIP_ISEXISTS_ILLUST,BOOKMARK_PATH
+from conf.config import BOOKMARK_HIDE_ENABLE,SKIP_ISEXISTS_ILLUST,BOOKMARK_PATH
 from downer import Downloader
-from log_record import logger
-from message import TEMP_MSG
+from log.log_record import logger
+from log.message import TEMP_MSG
 from thread_pool import ThreadPool,callback
 from ptimer import Timer
 # TODO
-from tag import TAG_FLAG_BOOKMARK
 
 
 class Bookmark(object):

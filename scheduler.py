@@ -2,11 +2,11 @@
 import time
 from multiprocessing import Process
 
-from config import API_HOST,API_PORT,BOOKMARK_CYCLE,DB_ENABLE,USERS_CYCLE,\
+from conf.config import API_HOST,API_PORT,BOOKMARK_CYCLE,DB_ENABLE,USERS_CYCLE,\
 	PIXIV_BOOKMARK_ENABLED,PIXIV_CRAWLER_ENABLED,PIXIV_API_ENABLED
 from login import client
-from log_record import logger
-from message import TEMP_MSG
+from log.log_record import logger
+from log.message import TEMP_MSG
 
 
 class Scheduler(object):

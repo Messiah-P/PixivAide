@@ -6,10 +6,10 @@ import random
 from flask import Flask,request,jsonify
 
 # from config import API_HOST,API_PORT,RANDOM_LIMIT,API_THREAD
-from config import RANDOM_LIMIT
+from conf.config import RANDOM_LIMIT
 from downer import Downloader
-from log_record import logger
-from message import TEMP_MSG
+from log.log_record import logger
+from log.message import TEMP_MSG
 
 
 app = Flask(__name__)

@@ -10,11 +10,8 @@
 # here put the import lib
 import collections
 import time
-from typing import List
 
-from downer import Downloader
-from log_record import logger
-# from message import 
+# from message import
 
 
 TAG_FLAG_USER = True

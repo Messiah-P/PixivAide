@@ -11,14 +11,14 @@
 import os
 import sys
 from loguru import logger
-from config import DEBUG
+from conf.config import DEBUG
 
 if DEBUG:
     level = "DEBUG"
 else:
     level = "INFO"
 
-log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log")
+log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "")
 # remove default handler
 logger.remove()
 # 控制台输出

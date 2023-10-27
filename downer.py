@@ -16,12 +16,12 @@ import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-from config import USERS_LIMIT,BOOKMARK_LIMIT
+from conf.config import USERS_LIMIT,BOOKMARK_LIMIT
 from db import db_client
 from folder import file_manager
-from log_record import logger
+from log.log_record import logger
 from login import client
-from message import TEMP_MSG
+from log.message import TEMP_MSG
 
 
 # class Down(object):

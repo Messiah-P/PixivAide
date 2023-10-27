@@ -1,5 +1,4 @@
 # coding=utf8
-import os
 import random
 import pymysql
 from DBUtils.PooledDB import PooledDB
@@ -7,10 +6,10 @@ from DBUtils.PooledDB import PooledDB
 from pymysql.cursors import DictCursor
 
 # from config import *
-from config import DB_ENABLE,DB_HOST,DB_USER,\
+from conf.config import DB_ENABLE,DB_HOST,DB_USER,\
 	DB_PASSWD,DB_DATABASE,DB_PORT,DB_CHARSET
-from log_record import logger
-from message import TEMP_MSG
+from log.log_record import logger
+from log.message import TEMP_MSG
 
 
 class db_client(object):
